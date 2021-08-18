@@ -8,6 +8,6 @@
            remote="github"
            sync-j="4" />
 
-  <project path="rems-project/sail-riscv" name="projects/sail-riscv" groups="tools" remote="github" />
+  <project path="rems-project/sail-riscv" name="sail-riscv" groups="tools" remote="github" />
 
 </manifest>
