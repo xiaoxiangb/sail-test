@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="origin"
+      fetch="ssh://git@codeup.eng.t-head.cn:9022/d104cbe9440e89fbd9b753ef/riscv_cpu/" />
+
+  <default revision="develop"
+           remote="origin"
+           sync-j="4" />
+
+
+  <project path="tools/riscv-isa-sim" name="projects/riscv-isa-sim" groups="tools" remote="origin" />
+  <project path="tools/force-riscv" name="projects/force-riscv" groups="tools" remote="origin" />
+  <project path="tools/ELFIO" name="projects/ELFIO" groups="tools" remote="origin" />
+  <project path="tools/pisces_website" name="projects/pisces_website" groups="tools" remote="origin" revision="master" />
+  <project path="pisces" name="projects/pisces" groups="main" remote="origin" />
+  <project path="common/tdt" name="projects/tdt" groups="main" remote="origin" />
+  <project path="common/pic" name="projects/pic" groups="main" remote="origin" />
+  <project path="tools/sail" name="projects/sail" groups="tools" remote="origin" /> 
+
+</manifest>
