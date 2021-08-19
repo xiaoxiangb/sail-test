@@ -9,7 +9,13 @@
       fetch="https://gitlab.com/incoresemi/" />
 
   <default revision="master"
-           remote="github"
+           remote="github_riscv"
+           sync-j="4" />
+  <default revision="master"
+           remote="github_rems"
+           sync-j="4" />
+  <default revision="master"
+           remote="gitlab_incoresemi"
            sync-j="4" />
 
   <project path="/sail-riscv" name="sail-riscv" groups="tools" remote="github_rems" />
