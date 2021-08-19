@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
+  <remote  name="github_rems"
       fetch="https://github.com/rems-project/" /> 
+  <remote  name="github_riscv"
+      fetch="https://github.com/riscv/" />
+  <remote  name="gitlab_incoresemi"
+      fetch="https://gitlab.com/incoresemi/" />
 
   <default revision="master"
            remote="github"
            sync-j="4" />
 
-  <project path="rems-project/sail-riscv" name="sail-riscv" groups="tools" remote="github" />
+  <project path="/sail-riscv" name="sail-riscv" groups="tools" remote="github_rems" />
+  <project path="/sail" name="sail" groups="tools" remote="github_rems" />
+  <project path="/riscv-config" name="riscv-config" groups="tools" remote="github_riscv"/>
+  <project path="/riscv-arch-test" name="riscv-arch-test" groups="tools" remote="github_riscv" />
+  <project path="/riscof" name="riscof" groups="tools" remote="github_riscv" />
+  <project path="/riscof-plugins" name="riscof-plugins" groups="tools" remote="gitlab_incoresemi" /> 
 
 </manifest>
