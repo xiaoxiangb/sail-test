@@ -12,11 +12,11 @@
            remote="github_rems"
            sync-j="4" />
 
-  <project path="/sail-riscv" name="sail-riscv" groups="tools" remote="github_rems" />
-  <project path="/sail" name="sail" groups="tools" remote="github_rems" />
-  <project path="/riscv-config" name="riscv-config" groups="tools" remote="github_riscv"/>
-  <project path="/riscv-arch-test" name="riscv-arch-test" groups="tools" remote="github_riscv" />
-  <project path="/riscof" name="riscof" groups="tools" remote="github_riscv" />
-  <project path="/riscof-plugins" name="riscof-plugins" groups="tools" remote="gitlab_incoresemi" /> 
+  <project path="sail-riscv" name="sail-riscv" groups="tools" remote="github_rems" />
+  <project path="sail" name="sail" groups="tools" remote="github_rems" />
+  <project path="riscv-config" name="riscv-config" groups="tools" remote="github_riscv"/>
+  <project path="riscv-arch-test" name="riscv-arch-test" groups="tools" remote="github_riscv" />
+  <project path="riscof" name="riscof" groups="tools" remote="github_riscv" />
+  <project path="riscof-plugins" name="riscof-plugins" groups="tools" remote="gitlab_incoresemi" /> 
 
 </manifest>
